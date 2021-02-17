@@ -45,9 +45,9 @@ def imu():
         magRaw[1] = m[2]
         magRaw[2] = m[3]
 
-        accRaw[0] = a[0];
-        accRaw[1] = a[1];
-        accRaw[2] = a[3];
+        accRaw[0] = a[0]
+        accRaw[1] = a[1]
+        accRaw[2] = a[3]
 
 
 
