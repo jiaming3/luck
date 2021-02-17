@@ -41,13 +41,13 @@ def imu():
         )
 
 
-        magRaw[0] = m[1]
-        magRaw[1] = m[2]
-        magRaw[2] = m[3]
+        magRaw[0] = m[0]
+        magRaw[1] = m[1]
+        magRaw[2] = m[2]
 
         accRaw[0] = a[0]
         accRaw[1] = a[1]
-        accRaw[2] = a[3]
+        accRaw[2] = a[2]
 
 
 
